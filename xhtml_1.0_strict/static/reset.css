@@ -15,7 +15,7 @@ body {
 * {
   margin: 0px;
   padding: 0px;
-  outline: none;
+  outline: solid 0px transparent;
 }
 
 table {
@@ -24,7 +24,7 @@ table {
 }
 
 img {
-  border: none;
+  border: solid 0px transparent;
 }
 
 div {
@@ -42,6 +42,10 @@ div {
   line-height: 1em;
 }
 
-label {
+label,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
   cursor: pointer;
 }
