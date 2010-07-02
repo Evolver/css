@@ -35,11 +35,8 @@ div, table, td, p,
 input, textarea {
   font-family: inherit;
   font-size: inherit;
+	line-height: inherit;
   color: inherit;
-}
-
-div {
-  line-height: 1em;
 }
 
 label,
